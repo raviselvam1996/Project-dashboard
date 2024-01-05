@@ -15,6 +15,7 @@ return (<>
             <div className="media-body order-2 order-lg-1">
                 <h5 className="mt-0 font-weight-bold mb-2">{props.name}</h5>
                 <p className="font-italic text-muted mb-0 small">{props.dec}</p>
+                <p className="font-italic text-muted mb-0 small">Project succesfully Uptated</p>
             
           <ProductDetails isAvailable={props.isAvailable} price={props.price}></ProductDetails>
             </div>
